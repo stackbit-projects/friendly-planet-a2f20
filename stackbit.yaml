@@ -157,4 +157,4 @@ models:
         type: boolean
         label: draft
       - name: avatar
-        type: string
+        type: image
