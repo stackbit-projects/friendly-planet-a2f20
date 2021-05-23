@@ -158,3 +158,4 @@ models:
         label: draft
       - name: avatar
         type: image
+        label: avatar
