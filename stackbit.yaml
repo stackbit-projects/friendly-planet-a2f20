@@ -143,3 +143,6 @@ models:
   about:
     type: page
     label: about
+    fields:
+      - name: ''
+        type: string
