@@ -149,3 +149,4 @@ models:
         label: title
       - name: description
         type: string
+        label: description
