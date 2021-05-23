@@ -155,3 +155,4 @@ models:
         label: bio
       - name: draft
         type: string
+        label: draft
