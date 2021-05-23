@@ -146,4 +146,4 @@ models:
     fields:
       - name: description
         type: string
-        label: title
+        label: description
