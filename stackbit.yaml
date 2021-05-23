@@ -150,3 +150,5 @@ models:
       - name: description
         type: string
         label: description
+      - name: ''
+        type: string
