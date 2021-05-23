@@ -147,5 +147,5 @@ models:
       - name: title
         type: string
         label: title
-      - name: ''
+      - name: description
         type: string
