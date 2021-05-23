@@ -153,5 +153,5 @@ models:
       - name: bio
         type: string
         label: bio
-      - name: ''
+      - name: draft
         type: string
