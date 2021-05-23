@@ -156,3 +156,5 @@ models:
       - name: draft
         type: boolean
         label: draft
+      - name: ''
+        type: string
