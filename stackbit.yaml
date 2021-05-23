@@ -146,3 +146,4 @@ models:
     fields:
       - name: title
         type: string
+        label: title
