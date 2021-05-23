@@ -154,5 +154,5 @@ models:
         type: string
         label: bio
       - name: draft
-        type: string
+        type: boolean
         label: draft
