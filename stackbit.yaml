@@ -153,3 +153,5 @@ models:
       - name: bio
         type: string
         label: bio
+      - name: ''
+        type: string
