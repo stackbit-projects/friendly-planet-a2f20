@@ -144,6 +144,6 @@ models:
     type: page
     label: about
     fields:
-      - name: description
+      - name: title
         type: string
         label: description
