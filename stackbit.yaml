@@ -1,0 +1,140 @@
+stackbitVersion: ~0.3.0
+ssgName: hugo
+publishDir: public
+dataDir: data
+pagesDir: content
+assets:
+  referenceType: static
+  staticDir: static
+  uploadDir: assets
+  publicPath: /
+models:
+  assets:
+    type: data
+    label: Assets
+    file: assets.yaml
+    fields:
+      - type: object
+        name: highlightjs
+        label: Highlightjs
+        fields:
+          - type: string
+            name: version
+            label: Version
+          - type: object
+            name: css
+            label: Css
+            fields:
+              - type: string
+                name: url
+                label: Url
+          - type: object
+            name: js
+            label: Js
+            fields:
+              - type: string
+                name: url
+                label: Url
+          - type: object
+            name: languages
+            label: Languages
+            fields:
+              - type: string
+                name: url
+                label: Url
+      - type: object
+        name: fontawesome
+        label: Fontawesome
+        fields:
+          - type: string
+            name: version
+            label: Version
+          - type: object
+            name: js
+            label: Js
+            fields:
+              - type: string
+                name: url
+                label: Url
+              - type: string
+                name: sri
+                label: Sri
+      - type: object
+        name: katex
+        label: Katex
+        fields:
+          - type: string
+            name: version
+            label: Version
+          - type: object
+            name: css
+            label: Css
+            fields:
+              - type: string
+                name: url
+                label: Url
+              - type: string
+                name: sri
+                label: Sri
+          - type: object
+            name: js
+            label: Js
+            fields:
+              - type: string
+                name: url
+                label: Url
+              - type: string
+                name: sri
+                label: Sri
+          - type: object
+            name: autoRender
+            label: Auto Render
+            fields:
+              - type: string
+                name: url
+                label: Url
+              - type: string
+                name: sri
+                label: Sri
+      - type: object
+        name: mermaid
+        label: Mermaid
+        fields:
+          - type: string
+            name: version
+            label: Version
+          - type: object
+            name: js
+            label: Js
+            fields:
+              - type: string
+                name: url
+                label: Url
+              - type: string
+                name: sri
+                label: Sri
+      - type: object
+        name: valine
+        label: Valine
+        fields:
+          - type: string
+            name: version
+            label: Version
+          - type: object
+            name: js
+            label: Js
+            fields:
+              - type: string
+                name: url
+                label: Url
+              - type: string
+                name: sri
+                label: Sri
+  eureka:
+    type: data
+    label: Eureka
+    file: eureka.yaml
+    fields:
+      - type: string
+        name: version
+        label: Version
